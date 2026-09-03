@@ -1,0 +1,12 @@
+streamlit>=1.30
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+nltk>=3.8
+
+# Optional: enables the Selenium fallback for JavaScript-rendered pages
+# (e.g. Croma, or Amazon regions that lazy-load reviews). The app runs fine
+# without these — it just skips straight to "paste reviews manually" for
+# JS-heavy pages instead.
+selenium>=4.20
+webdriver-manager>=4.0
